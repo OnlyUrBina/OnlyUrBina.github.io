@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS0N</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/cosmo/bootstrap.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="col-12 bg-primary text-center">
+        <h1>Envíanos tu reseña</h1>
+    </header>
+
+    <nav class="col-12 bg-secondary text-center">
+        <ul>
+            <li><a href="index.html">Página de Inicio</a></li>
+            <li><a href="../Ejercicio 2/index.html">Json con Jquery</a></li>
+            <li><a href="formulario.html">Formulario</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Envíanos tu comentario:</h2>
+
+        <form action="php/enviarDatos.php" method="post">
+            <label for="formNombre">Nombre:</label>
+            <input type="text" name="formNombre" id="formNombre" placeholder="Escriba su nombre y apellidos">
+
+            <label for="formCorreo">Email:</label>
+            <input type="email" name="formCorreo" id="formCorreo" placeholder="ejemplo@correo.com">
+
+            <label for="formMensaje">Mensaje:</label>
+            <textarea name="formMensaje" id="formMensaje" placeholder="Escríbanos su comentario:"></textarea>
+
+            <input type="submit" id="enviar" name="enviar" value="Enviar Datos" class="btn btn-primary">
+            <input type="reset" id="limpiar" name="limpiar" value="Limpiar" class="btn btn-primary">
+        </form>
+    </section>
+
+    <footer class="col-12 bg-primary text-center">
+        <h3>Programación de JavaScript</h3>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-apple"></i>
+        <i class="fa-brands fa-github"></i>
+
+
+    </footer>
+
+    <script src="https://kit.fontawesome.com/969afb15e0.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS0N</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/cosmo/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="col-12 bg-primary text-center">
+        <h1>Carga y Eliminación de datos con JSON</h1>
+    </header>
+
+    <div class="container">
+        <h2 class="text-center">AJAX</h2>
+        <p class="text-center">Librerías de Jquery</p>
+        <p class="text-center">Asynchonous JavaScript and XML</p>
+
+        <p>Muestra datos almacenados en el JSON</p>
+        <div id="contenido"></div>
+        <hr>
+
+        <!--Muestra los datos en un formulario-->
+        <p>FORMULARIO</p>
+        <label>Nombre:</label><br>
+        <input type="text" id="formNombre" disabled>
+        <br>
+
+        <label>Edad:</label><br>
+        <input type="text" id="formEdad" disabled>
+        <br>
+
+        <label>Dirección:</label><br>
+        <input type="text" id="formDireccion" disabled>
+        <br>
+
+        <label>Telefono:</label><br>
+        <input type="text" id="formTelefono" disabled>
+        <br>
+
+        <!--Botón al presionar llama a los datos almacenados en el JSON-->
+        <button id="cargar" class="btn btn-primary">Cargar Datos</button>
+
+        <!--Botón para eliminar los datos en Pantalla-->
+        <button id="elimina" class="btn btn-primary">Eliminar Datos</button>
+    </div>
+
+    <footer class="col-12 bg-primary text-center">
+        Programación de JavaScript
+
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-apple"></i>
+        <i class="fa-brands fa-github"></i>
+    </footer>
+
+    <!--Cargar el archivo de JS de JQuery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/969afb15e0.js" crossorigin="anonymous"></script>
+    <!--Ejecuta el archivo de Java-->
+    <script src="js/java.js"></script>
+</body>
+
+</html>
